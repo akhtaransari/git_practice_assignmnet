@@ -1,12 +1,13 @@
 let name = "namal";
 
-bag = "";
+let bag="";
 
-for ( let i = 5 ; i >= 0 ; i--) {
-    bag = bag + name[i]
+for ( let i =name.length-1 ; i >= 0 ; i--) {
+    bag = bag + name[i];
     
-} if ( bag = name ){
-    console.log("Yes, Its a Palindrome");
+} 
+if ( bag ===name ){
+    console.log("It is a Palindrome");
 }else {
-    console.log("No, Its a Palindrome")
+    console.log("It is not a Palindrome");
 }
